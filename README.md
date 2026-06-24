@@ -13,12 +13,5 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import re
 
-# -------------------------------
-# 1. Sample Medicine Dataset
-# -------------------------------
-# Each medicine has:
-#   - name: brand/generic name
-#   - indications: comma-separated list of symptoms/diseases it treats
-#   - category: (optional) for extra info
-#   - prescription_required: boolean
+
 
