@@ -1,0 +1,15 @@
+structure
+medicine_recommender/
+│
+├── app.py                 # Flask application (main entry point)
+├── model.py               # Model training script
+├── requirements.txt       # Dependencies
+├── templates/
+│   └── index.html         # Frontend UI
+├── static/
+│   └── style.css          # Custom styles
+├── data/
+│   └── drug_reviews.csv   # Dataset (download from Kaggle)
+└── models/
+    ├── medicine_dict.pkl  # Medicine metadata
+    └── similarity.pkl     # Cosine similarity matrix
